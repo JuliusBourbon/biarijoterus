@@ -14,13 +14,14 @@ func findDisappearedNumbers(nums []int) []int {
         }
     }
 
-    // find duplicates while also found missing number
+    // find duplicates
     duplicated := make([]int, max)
-    missing := make([]int, 0, max)
     for _, j := range nums {
         duplicated[j-1]++
     }
 
+    // find missing
+    missing := make([]int, 0, max)
     for k := 0; k < max; k++{
         if duplicated[k] == 0 {
             missing = append(missing, k+1)
