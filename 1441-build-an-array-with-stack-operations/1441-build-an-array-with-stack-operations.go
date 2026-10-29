@@ -7,14 +7,9 @@ func buildArray(target []int, n int) []string {
         stack = append(stack, i+1) // PUSH
         output = append(output, "Push")
 
-
-        // if len(stack) == len(target) {
         for j := 0; j < len(stack); j++ {
-            // in case first index is not 1
-            if stack[0] != target[0] {
-            }
-
             if stack[j] != target[j] {
+                // in case first index is not 1
                 if j == 0 {
                     stack = stack[:0] // POP
                     sameValue = false
@@ -32,7 +27,6 @@ func buildArray(target []int, n int) []string {
         if sameValue == false {
             output = append(output, "Pop")
         }
-        // }
 
         if len(stack) == len(target) && sameValue == true {
             break
