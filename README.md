@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/JuliusBourbon/biarijoterus/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/JuliusBourbon/biarijoterus/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/JuliusBourbon/biarijoterus/tree/master/0485-max-consecutive-ones) |
 | [0645-set-mismatch](https://github.com/JuliusBourbon/biarijoterus/tree/master/0645-set-mismatch) |
@@ -33,9 +34,14 @@
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/JuliusBourbon/biarijoterus/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1441-build-an-array-with-stack-operations](https://github.com/JuliusBourbon/biarijoterus/tree/master/1441-build-an-array-with-stack-operations) |
 ## Simulation
 |  |
 | ------- |
 | [1441-build-an-array-with-stack-operations](https://github.com/JuliusBourbon/biarijoterus/tree/master/1441-build-an-array-with-stack-operations) |
+## Math
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/JuliusBourbon/biarijoterus/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
